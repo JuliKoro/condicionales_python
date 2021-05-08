@@ -26,3 +26,32 @@ En cada caso imprimir en pantalla el resultado
 
 print('Ejercicios de práctica con números')
 # Empezar aquí la resolución del ejercicio
+
+# Ingreso de datos
+temp_1 = int(input('Ingrese temperatura nro. 1: '))
+temp_2 = int(input('Ingrese temperatura nro. 2: '))
+temp_3 = int(input('Ingrese temperatura nro. 3: '))
+
+# Evaluación temperaturas
+if temp_1 > temp_2 and temp_1 > temp_3:
+    print('{} grados es la temperatura más alta.'.format(temp_1))
+    if temp_2 < temp_3:
+        print('{} grados es la temperatura más baja.'.format(temp_2))
+    else:
+        print('{} grados es la temperatura más baja.'.format(temp_3))
+elif temp_2 > temp_1 and temp_2 > temp_3:
+    print('{} grados es la temperatura más alta.'.format(temp_2))
+    if temp_1 < temp_3:
+        print('{} grados es la temperatura más baja.'.format(temp_1))
+    else:
+        print('{} grados es la temperatura más baja.'.format(temp_3))
+elif temp_3 > temp_1 and temp_3 > temp_1:
+    print('{} grados es la temperatura más alta.'.format(temp_3))
+    if temp_2 < temp_1:
+        print('{} grados es la temperatura más baja.'.format(temp_2))
+    else:
+        print('{} grados es la temperatura más baja.'.format(temp_1))
+
+# Cálculo promedio
+promedio = (temp_1 + temp_2 + temp_3) / 3
+print('Promedio de la temperatura: {} grados Celsius'.format(promedio))
