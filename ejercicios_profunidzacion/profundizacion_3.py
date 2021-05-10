@@ -28,9 +28,9 @@ print('Ejercicios de práctica con números')
 # Empezar aquí la resolución del ejercicio
 
 # Ingreso de datos
-temp_1 = int(input('Ingrese temperatura nro. 1: '))
-temp_2 = int(input('Ingrese temperatura nro. 2: '))
-temp_3 = int(input('Ingrese temperatura nro. 3: '))
+temp_1 = float(input('Ingrese temperatura nro. 1: '))
+temp_2 = float(input('Ingrese temperatura nro. 2: '))
+temp_3 = float(input('Ingrese temperatura nro. 3: '))
 
 # Evaluación temperaturas
 if temp_1 > temp_2 and temp_1 > temp_3:
