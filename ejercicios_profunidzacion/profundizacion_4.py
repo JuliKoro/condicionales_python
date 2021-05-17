@@ -48,9 +48,9 @@ if menu == 1:
     for x in [0, 2, 3]:
         if texto[0] > texto[1]:
             if texto [1] < texto[2]:
-                temp = texto[1]
-                texto[1] = texto[2]
-                texto[2] = temp
+                temp = texto[1] # Variable temporal
+                texto[1] = texto[2] # Intercambio de posiciones
+                texto[2] = temp # Rescato dato del temporal
         else:
             temp = texto[0]
             texto[0] = texto[1]
@@ -62,7 +62,7 @@ elif menu == 2:
    for x in [0, 2, 3]:
         if len(texto[0]) > len(texto[1]):
             if len(texto [1]) < len(texto[2]):
-                temp = texto[1]
+                temp = texto[1] 
                 texto[1] = texto[2]
                 texto[2] = temp
         else:
