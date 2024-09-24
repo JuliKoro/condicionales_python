@@ -20,33 +20,33 @@ texto_2 = str(input('Ingrese la segunda palabra:\n'))
 # Imprima en pantalla según corresponda
 
 if texto_1 > texto_2:
-    print('"{}" es mayor alfabéticamente que "{}".'.format(texto_1, texto_2))
+    print(f'"{texto_1}" es mayor alfabéticamente que "{texto_2}".')
 elif texto_1 < texto_2:
-    print('"{}" es mayor alfabéticamente que "{}".'.format(texto_2, texto_1))
+    print(f'"{texto_2}" es mayor alfabéticamente que "{texto_1}".')
 else: 
-    print('"{}" y "{}" son la misma palabra.'.format(texto_1, texto_2))
+    print(f'"{texto_1}" y "{texto_2}" son la misma palabra.')
 
 # Compare cual de las dos palabras tiene mayor
 # cantidad de letras
 # Imprima en pantalla según corresponda
 
 if len(texto_1) > len(texto_2):
-    print('"{}" tiene más letras que "{}".'.format(texto_1, texto_2))
+    print(f'"{texto_1}" ({len(texto_1)}) tiene más letras que "{texto_2}" ({len(texto_2)}).')
 elif len(texto_1) < len(texto_2):
-    print('"{}" tiene más letras que "{}".'.format(texto_2, texto_1))
+    print(f'"{texto_2}" ({len(texto_2)}) tiene más letras que "{texto_1}" ({len(texto_1)}).')
 else:
-    print('"{}" tiene la misma cantidad de letras que "{}".'.format(texto_1, texto_2))
+    print(f'"{texto_1}" tiene la misma cantidad de letras que "{texto_2}" ({len(texto_2)}).')
 
 # Verifique si la primera letra de la primera palabra
 # es mayor a la primera letra de la segunda palabra
 # Imprima en pantalla según corresponda
 
 if texto_1[0] > texto_2[0]:
-    print('La primer letra de "{}" es mayor alfabéticamente que la primer letra de "{}".'.format(texto_1, texto_2))
+    print(f'La primer letra de "{texto_1}" es mayor alfabéticamente que la primer letra de "{texto_2}".')
 elif texto_1[0] < texto_2[0]:
-    print('La primer letra de "{}" es mayor alfabéticamente que la primer letra de "{}".'.format(texto_2, texto_1))
+    print(f'La primer letra de "{texto_2}" es mayor alfabéticamente que la primer letra de "{texto_1}".')
 else:
-    print('La primer letra de "{}" es igual que la primer letra de "{}".'.format(texto_1, texto_2))
+    print(f'La primer letra de "{texto_1}" es igual que la primer letra de "{texto_2}".')
 
 copia_texto_1 = texto_1  # Copia de la variable texto_1
 
@@ -54,14 +54,14 @@ copia_texto_1 = texto_1  # Copia de la variable texto_1
 # Imprima en pantalla según corresponda
 
 if copia_texto_1 == texto_1:
-    print('"{}" es igual a "{}".'.format(copia_texto_1, texto_1))
+    print(f'"{copia_texto_1}" es igual a "{texto_1}".')
 else:
-    print('"{}" es distinto a "{}".'.format(copia_texto_1, texto_1))
+    print(f'"{copia_texto_1}" es distinto a "{texto_1}".')
 
 # Verifique que copia_texto_1 es distinta a texto_2
 # Imprima en pantalla según corresponda
 
 if copia_texto_1 != texto_2:
-    print('"{}" es distinto a "{}".'.format(copia_texto_1, texto_2))
+    print(f'"{copia_texto_1}" es distinto a "{texto_2}".')
 else:
-    print('"{}" es igual a "{}".'.format(copia_texto_1, texto_2))
+    print(f'"{copia_texto_1}" es igual a "{texto_2}".')

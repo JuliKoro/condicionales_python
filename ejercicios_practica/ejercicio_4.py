@@ -16,11 +16,11 @@ texto_2 = '7'
 # Imprima en pantalla según corresponda
 
 if texto_1 > texto_2:
-    print('"{}" es mayor alfabéticamente que "{}".'.format(texto_1, texto_2))
+    print(f'"{texto_1}" es mayor alfabéticamente que "{texto_2}".')
 elif texto_1 < texto_2:
-    print('"{}" es mayor alfabéticamente que "{}".'.format(texto_2, texto_1))
+    print(f'"{texto_2}" es mayor alfabéticamente que "{texto_1}".')
 else:
-    print('"{}" es igual que "{}".'.format(texto_1, texto_2))
+    print(f'"{texto_1}" es igual que "{texto_2}".')
 
 # Transforma esas variables tipo texto y almacénalas
 # en nuevas variables númericas (int)
@@ -31,11 +31,11 @@ num_1 = int(texto_1)
 num_2 = int(texto_2)
 
 if num_1 > num_2:
-    print('El número {} es mayor que el número {}.'.format(num_1, num_2))
+    print(f'El número {num_1} es mayor que el número {num_2}.')
 elif num_1 < num_2:
-    print('El número {} es mayor que el número {}.'.format(num_2, num_1))
+    print(f'El número {num_2} es mayor que el número {num_1}.')
 else:
-    print('El número {} es igual que el número {}.'.format(num_1, num_2))
+    print(f'El número {num_1} es igual que el número {num_2}.')
 
 # Para pensar!
 # ¿Por qué cree que texto_2 es mayor a texto_1?
@@ -47,4 +47,4 @@ else:
 # NOTA: La respuesta no se encuentra en el apunte, sino en Google ;)
 
 # Respuesta: Esto se debe a que cada caracter tiene un valor numérico asociado
-# al Código ASCII, y en éste tanto los números como el alfabeto están ordenados.
+# al Código ASCII, y en éste caso, tanto los números como el alfabeto están ordenados.
