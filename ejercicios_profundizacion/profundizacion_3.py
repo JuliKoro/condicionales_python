@@ -34,24 +34,24 @@ temp_3 = float(input('Ingrese temperatura nro. 3: '))
 
 # Evaluación temperaturas
 if temp_1 > temp_2 and temp_1 > temp_3:
-    print('{} grados es la temperatura más alta.'.format(temp_1))
+    print(f'{temp_1}°C es la temperatura más alta.')
     if temp_2 < temp_3:
-        print('{} grados es la temperatura más baja.'.format(temp_2))
+        print(f'{temp_2}°C es la temperatura más baja.')
     else:
-        print('{} grados es la temperatura más baja.'.format(temp_3))
+        print(f'{temp_3}°C es la temperatura más baja.')
 elif temp_2 > temp_1 and temp_2 > temp_3:
-    print('{} grados es la temperatura más alta.'.format(temp_2))
+    print(f'{temp_2}°C es la temperatura más alta.')
     if temp_1 < temp_3:
-        print('{} grados es la temperatura más baja.'.format(temp_1))
+        print(f'{temp_1}°C es la temperatura más baja.')
     else:
-        print('{} grados es la temperatura más baja.'.format(temp_3))
+        print(f'{temp_3}°C es la temperatura más baja.')
 elif temp_3 > temp_1 and temp_3 > temp_1:
-    print('{} grados es la temperatura más alta.'.format(temp_3))
+    print(f'{temp_3}°C es la temperatura más alta.')
     if temp_2 < temp_1:
-        print('{} grados es la temperatura más baja.'.format(temp_2))
+        print(f'{temp_2}°C es la temperatura más baja.')
     else:
-        print('{} grados es la temperatura más baja.'.format(temp_1))
+        print(f'{temp_1}°C es la temperatura más baja.')
 
 # Cálculo promedio
 promedio = (temp_1 + temp_2 + temp_3) / 3
-print('Promedio de la temperatura: {} grados Celsius'.format(promedio))
+print(f'Promedio de la temperatura: {promedio}°C')

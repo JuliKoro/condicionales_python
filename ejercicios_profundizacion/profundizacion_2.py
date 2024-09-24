@@ -30,16 +30,16 @@ num_2 = int(input('Ingrese el segundo número: '))
 num_3 = int(input('Ingrese el tercer número: '))
 
 if num_1 % 2 == 0:
-    print('El número {} es par.'.format(num_1))
+    print(f'El número {num_1} es par.')
 else:
-    print('El número {} es impar.'.format(num_1))
+    print(f'El número {num_1} es impar.')
 
 if num_2 % 2 == 0:
-    print('El número {} es par.'.format(num_2))
+    print(f'El número {num_2} es par.')
 else:
-    print('El número {} es impar.'.format(num_2))
+    print(f'El número {num_2} es impar.')
 
 if num_3 % 2 == 0:
-    print('El número {} es par.'.format(num_3))
+    print(f'El número {num_3} es par.')
 else:
-    print('El número {} es impar.'.format(num_3))
+    print(f'El número {num_3} es impar.')

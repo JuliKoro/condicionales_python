@@ -28,11 +28,11 @@ num_1 = int(input('Ingrese un número:\n'))
 num_2 = int(input('Ingrese otro número:\n'))
 
 resta = num_1 - num_2
-print('La diferencia entre {} y {} es {}'.format(num_1, num_2, resta))
+print(f'La diferencia entre {num_1} y {num_2} es {resta}')
 
 if resta > 0:
-    print('El resultado {} es positivo.'.format(resta))
+    print(f'El resultado {resta} es positivo.')
 elif resta < 0:
-    print('El resultado {} es negativo.'.format(resta))
+    print(f'El resultado {resta} es negativo.')
 else:
-    print('El resultado {} es nulo (cero).'.format(resta))
+    print(f'El resultado {resta} es nulo (cero).')
